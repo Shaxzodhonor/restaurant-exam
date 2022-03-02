@@ -1,0 +1,28 @@
+.intro {
+  margin-top: 6px;
+  background-color: rgba(241, 9, 9,0.9);
+  min-height:74%;
+  
+
+  .restaurants {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    .restaurant_card {
+      background-color: white;
+      display: inline-block;
+      border-radius: 7px;
+      margin: 40px;
+      overflow: hidden;
+      div {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}
